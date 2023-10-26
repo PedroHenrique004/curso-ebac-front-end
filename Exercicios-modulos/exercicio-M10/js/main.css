@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(67, 33, 33);
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+}
+
+.cabecario {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 32px;
+    width: 100%;
+    margin-bottom: 300px;
+    
+}
+
+.div-maior {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+}
+
+input,
+button{
+    margin: 32px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(103, 100, 100);
+    cursor: pointer;
+}
+
+.error-message {
+    font-size: 12px;
+    background-color: red;
+    color: #fff;
+    margin-left: 60px;
+    width: 350px;
+    padding: 16px;
+    border-radius: 5px;
+    display:none; 
+}
+
+.success-message{
+    font-size: 12px;
+    background-color: rgb(47, 244, 12);
+    color: #fff;
+    margin-left: 60px;
+    width: 350px;
+    padding: 16px;
+    border-radius: 5px;
+    display: none; /*para não aparecer só o bloco verde sem nada, agr é só colocar denovo com JS*/
+}

@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 32px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.cabecalho {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 32px;
+    font-size: 18px;
+}
+
+.sobre-loja{
+    max-width: 1024px;
+    width: 1000px;
+    margin-left: 300px;
+
+}
+
+.container {
+    margin: 16px;
+    display: flex;
+}
+
+.container p{
+    margin-left: 32px;
+}
+
+.container h2 {
+    margin-top: 64px;
+    margin-left: 32px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid black;
+}
