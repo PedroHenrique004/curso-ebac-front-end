@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+header > .container{
+    background-color: black;
+    color: rgb(80, 0, 80);
+    text-align: center;
+    padding-bottom: 64px;
+    padding-top: 16px;
+    border: 1px solid rgb(80, 0, 80);
+    margin-bottom: 24px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px rgba(80, 0, 80, 0.9);
+}
+
+.card {
+    margin-top: 32px;
+    height: 400px;
+}
