@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja do Pedro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand nao-link">Loja do Pedro</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-lg-flex ">
+                    <li class="nav-item">
+                        <a href="#jogos-do-momento" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#localizacao" class="nav-link">
+                            <i class="bi bi-check-circle"></i>
+                            Como funcionamos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-controller me-1"></i>
+                            Jogos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="jogos-do-momento">
+            <div class="container">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img class="w-100" src="/imagens/minezao.webp" alt="Minecraft">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="w-100" src="/imagens/rdr2.jpg" alt="Red dead redemption">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img class="w-100" src="/imagens/fortnite-season-5.webp" alt="Fortnite">
+                        </div>
+                    </div>
+            
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+            
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="/imagens/sala-jogos-decoração.jpeg" alt="Interior da loja" class="w-100 d-block rounded">
+                        </div>
+                        <div class="col-md-7 text-gray">
+                            <h2 class="mt-3 mt-md-0"><span class="text-blue">Sobre a loja</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit aperiam nemo, et similique consequuntur facilis laboriosam cum, atque, quo voluptatem nobis a dicta nisi porro recusandae tempore ea ad. Earum!</p>
+                            <h3><span class="text-blue">Sobre o espaço</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatibus error et sapiente cupiditate ut neque quia, fugiat corporis. Dolorum iusto, cupiditate voluptate non impedit sequi blanditiis similique voluptatem. Voluptatem.</p>
+                            <ul>
+                                <li>
+                                    Item 1
+                                </li>
+                                <li>
+                                    Item 2
+                                </li>
+                                <li>
+                                    Item 3
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="localizacao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center text-blue">Quer comprar com a gente?</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <img src="imagens/jogar-na-loja.jpg" alt="" class="w-100 rounded d-block mb-3" id="imagem1">
+                        <h3 class="section-title text-blue fs-4 text-center mb-3">
+                            <i class="bi bi-joystick"></i> 
+                            Jogue com a gente</h3>
+                        <p class="text-gray">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ex minima doloribus dignissimos necessitatibus tempore laudantium debitis. Qui, beatae aut nisi earum mollitia nobis itaque ab quos id provident.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="imagens/internet.jpg" alt="" class="w-100 rounded d-block mb-3">
+                        <h3 class="section-title text-blue fs-4 text-center mb-3">
+                            <i class="bi bi-cart"></i>
+                            Compre pelo site</h3>
+                        <p class="text-gray">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ex minima doloribus dignissimos necessitatibus tempore laudantium debitis. Qui, beatae aut nisi earum mollitia nobis itaque ab quos id provident.
+                        </p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="imagens/loja-fisica.webp" alt="" class="w-100 rounded d-block mb-3" id="imagem3">
+                        <h3 class="section-title text-blue fs-4 text-center mb-3">
+                            <i class="bi bi-bag"></i> 
+                            Compre na loja</h3>
+                        <p class="text-gray">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non a ex minima doloribus dignissimos necessitatibus tempore laudantium debitis. Qui, beatae aut nisi earum mollitia nobis itaque ab quos id provident.
+                        </p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+        <section id="jogos" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center text-blue mb-5">
+                        Nossos jogos e extras
+                    </h2>
+                </div>
+
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button data-bs-toggle="tab" data-bs-target="#mais-vendidos" type="button" class="fw-bold text-start nav-link mb-2 active">Mais vendidos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#modo-historia" type="button" class="fw-bold text-start nav-link mb-2">Modo História</button>
+                            <button data-bs-toggle="tab" data-bs-target="#multplayer" type="button" class="fw-bold text-start nav-link mb-2">Multplayer</button>
+                            <button data-bs-toggle="tab" data-bs-target="#extensoes" type="button" class="fw-bold text-start nav-link mb-2">Extensões</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="mais-vendidos">
+                                    <div class="row">
+                                        <div class="col-md-4 text-gray mb-4">
+                                            <img src="imagens/minezao.webp" alt="Minecraft" class="w-100 d-block rounded mb-3">
+                                            <h5 class="text-center">Minecraft</h5>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                            <button type="button" class="btn btn-success w-100">
+                                                Comprar agora
+                                            </button>
+                                        </div>
+
+                                        <div class="col-md-4 text-gray">
+                                            <img src="imagens/tlou.webp" alt="The Last of U 2s" class="w-100 d-block rounded mb-3">
+                                            <h5 class="text-center">The Last of Us part 2</h5>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                            <button type="button" class="btn btn-success w-100">
+                                                Comprar agora
+                                            </button>
+                                        </div>
+
+                                        <div class="col-md-4 text-gray">
+                                            <img src="imagens/miranha.webp" alt="Spider-man 2" class="w-100 d-block rounded mb-3">
+                                            <h5 class="text-center">spider-man 2</h5>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                            <button type="button" class="btn btn-success w-100">
+                                                Comprar agora
+                                            </button>
+                                        </div>
+
+                                        <div class="col-md-4 text-gray">
+                                            <img src="imagens/rdr2.jpg" alt="Red dead redemption" class="w-100 d-block rounded mb-3">
+                                            <h5 class="text-center">Red dead redemption</h5>
+                                            <p>
+                                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                            </p>
+                                            <button type="button" class="btn btn-success w-100">
+                                                Comprar agora
+                                            </button>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="tab-pane" id="modo-historia">
+
+                                <div class="row">
+                                    <div class="col-md-4 text-gray">
+                                        <img src="imagens/tlou.webp" alt="The Last of U 2s" class="w-100 d-block rounded mb-3">
+                                        <h5 class="text-center">The Last of Us part 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <button type="button" class="btn btn-success w-100">
+                                            Comprar agora
+                                        </button>
+                                    </div>
+
+                                    <div class="col-md-4 text-gray">
+                                        <img src="imagens/miranha.webp" alt="Spider-man 2" class="w-100 d-block rounded mb-3">
+                                        <h5 class="text-center">spider-man 2</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <button type="button" class="btn btn-success w-100">
+                                            Comprar agora
+                                        </button>
+                                    </div>
+
+                                    <div class="col-md-4 text-gray">
+                                        <img src="imagens/rdr2.jpg" alt="Red dead redemption" class="w-100 d-block rounded mb-3">
+                                        <h5 class="text-center">Red dead redemption</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                        <button type="button" class="btn btn-success w-100">
+                                            Comprar agora
+                                        </button>
+                                    </div>
+                                </div>
+                        
+                        </div>
+
+                        <div class="tab-pane" id="multplayer">
+
+                            <div class="row">
+                                <div class="col-md-4 text-gray">
+                                    <img src="imagens/minezao.webp" alt="Minecraft" class="w-100 d-block rounded mb-3">
+                                    <h5 class="text-center">Minecraft</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                    <button type="button" class="btn btn-success w-100">
+                                        Comprar agora
+                                    </button>
+                                </div>
+
+                                <div class="col-md-4 text-gray">
+                                    <img src="imagens/pubg-battlegrounds_ejac.jpg" alt="Pubg" class="w-100 d-block rounded mb-3" id="pubg-img">
+                                    <h5 class="text-center">PUBG</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                    <button type="button" class="btn btn-success w-100">
+                                        Comprar agora
+                                    </button>
+                                </div>
+
+                                <div class="col-md-4 text-gray">
+                                    <img src="imagens/r6.jpg" alt="Rainbow six siege" class="w-100 d-block rounded mb-3">
+                                    <h5 class="text-center">Rainbow Six Siege</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                    <button type="button" class="btn btn-success w-100">
+                                        Comprar agora
+                                    </button>
+                                </div>
+                            </div>
+                    </div>
+
+                        <div class="tab-pane" id="extensoes">
+
+                            <div class="row">
+                                <div class="col-md-4 text-gray">
+                                    <img src="imagens/minecoins.jpg" alt="10 000 Minecraft coins" class="w-100 d-block rounded mb-3">
+                                    <h5 class="text-center">10.000 Minecraft Coins</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                    <button type="button" class="btn btn-success w-100">
+                                        Comprar agora
+                                    </button>
+                                </div>
+
+                                <div class="col-md-4 text-gray">
+                                    <img src="imagens/vbucks.webp" alt="1.000.000 vBucks" class="w-100 d-block rounded mb-3" id="pubg-img">
+                                    <h5 class="text-center">1.000.000 vBucks</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                    <button type="button" class="btn btn-success w-100">
+                                        Comprar agora
+                                    </button>
+                                </div>
+
+                                <div class="col-md-4 text-gray">
+                                    <img src="imagens/moeda-r6.jpg" alt="1000 Rainbow six siege coins" class="w-100 d-block rounded mb-3" id="moeda-r6">
+                                    <h5 class="text-center">1000 Rainbow Six Siege coins</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    </p>
+                                    <button type="button" class="btn btn-success w-100">
+                                        Comprar agora
+                                    </button>
+                                </div>
+                            </div>                  
+                        </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-blue text-center pt-5 pb-5">Entre em contato</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <form>
+                            <div class="form-campo">
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-blue mb-3">Seu nome:</label>
+                                    <input type="text" class="form-control" required id="form-nome" name="nome" placeholder="Exemplo: Pedro Santos">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-labe fw-bold text-blue mb-3">Seu e-mail:</label>
+                                    <input type="email" class="form-control" required id="email" name="email" placeholder="meuemail@plataforma.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-l fw-bold text-blue mb-3">Seu telefone(opcional):</label>
+                                    <input type="tel" class="form-control"  id="form-telefone" name="telefone">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-l fw-bold text-blue mb-3" >Sua mensagem</label>
+                                    <textarea id="mensagem" class="form-control" nome="mensagemArea"> </textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-5 mt-4 mt-md-0">
+                        <div class="row">
+                            <h3 class="text-blue pb-3 fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Siga as nossas redes sociais:</h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-2 me-2">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="text-blue pb-3 fs-4 pt-4" >
+                                <i class="bi bi-geo-alt"></i>
+                                Endereço:</h3>
+                                <p class="text-gray">
+                                    Rua xxxxx </br> chacara xxxxxxx</br> lote xxxxxx </br>casa xxxxxx </br> Brasília - DF
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+   </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/messages_pt_BR.min.js"></script>
+    <script>
+
+        $(document).ready(function() {
+            $('#form-telefone').mask('(00) 00000-0000', {
+                placeholder:'(00)00000-0000'
+            })
+
+            $('form').validate({
+                rules: {
+                    nome : {
+                        required: true
+                    },
+                    email : {
+                        required: true,
+                        email: true
+                    },
+                    telefone : {
+                        required: true
+                    },
+                    mensagemArea : {
+                        required : true
+                    }
+
+                },
+
+                messages: {
+                    nome: 'Por favor insira seu nome',
+                    email: 'Por favor insira seu email',
+                    telefone: 'Por favor insira seu telefone',
+                    mensagemArea: 'Por favor insira seu mensagem'
+                },
+
+                submitHandler: function(form){
+                    console.log(form)
+                },
+
+                invalidHandler: function (evento, validador) {
+                    let camposIncorretos = validador.numberOfInvalids();
+                    if (camposIncorretos) {
+                        alert(`Existem ${camposIncorretos} campos incorretos`)
+                    }
+                }
+
+            })
+           
+        })
+        
+    </script>
+</body>
+</html>
