@@ -1,0 +1,23 @@
+@use 'variaveis';
+
+
+.introducao {
+    background-color: variaveis.$corDeFundo1;
+    padding-top: 200px;
+    display: flex;
+
+    &__texto {
+        padding-top: 48px;
+        padding-left: 32px;
+        text-align: center;
+
+        &__titulo {
+            padding-bottom: 48px;   
+            font-size: variaveis.$tamanhoTitulo;
+        }
+
+        &__mensagem {
+            font-size: variaveis.$tamanhoMensagem;
+        }
+    }
+}

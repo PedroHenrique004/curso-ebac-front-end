@@ -1,0 +1,26 @@
+@use 'variaveis';
+
+.sobre-a-saga {
+    display: flex;
+    justify-content: space-between;
+    background-color: variaveis.$corDeFundo2;
+    padding-top: 164px;
+    padding-bottom: 164px;
+
+    &__texto {
+        text-align: center;
+        padding-top: 48px;
+        padding-right: 32px;
+
+        &__titulo{
+            color: variaveis.$corPreta;
+            padding-bottom: 48px;
+            font-size: variaveis.$tamanhoTitulo;
+        }
+
+        &__mensagem {
+            color: variaveis.$corPreta;
+            font-size: variaveis.$tamanhoMensagem;
+        }
+    }
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header header--is header-hidden --is-minimized" id="header" data-tab-header>
+        <div class="header__container">
+            <img class="header__container__logo" src="./src/images/Logo.jpg" alt="Logo do filme">
+            <img class="header__container__titulo" src="./src/images/Rectangle 1.png" alt="Jogos Vorazes">
+            <ul>
+                <li><a href="#jogos">O que são os jogos</a></li>
+                <li><a href="#sobre-a-saga">Sobre a saga</a></li>
+                <li><a href="#sobre-os-filmes">Sobre os filmes</a></li>
+                <li><a href="#onde-assistir">Assista agora</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="introducao" id="jogos">
+        <img src="./src/images/image 2.png" alt="Imagem da saga">
+        <div class="introducao__texto">
+            <h2 class="introducao__texto__titulo">O que são os jogos?</h2>
+            <p class="introducao__texto__mensagem">Os Jogos Vorazes servem como um lembrete do poder da Capital e da punição pela rebelião passada dos distritos. Eles também funcionam como entretenimento macabro para os cidadãos da Capital e como uma forma de desesperança para os distritos. No entanto, o que a Capital não prevê é que os Jogos se tornariam o palco para uma nova revolução, incitada pela coragem e desafio de uma jovem chamada Katniss Everdeen.</p>
+        </div>
+    </section>
+
+    <section class="sobre-a-saga" id="sobre-a-saga">
+        <div class="sobre-a-saga__texto">
+            <h2 class="sobre-a-saga__texto__titulo">Sobre a saga</h2>
+            <p class="sobre-a-saga__texto__mensagem">A saga “Jogos Vorazes” acompanha Katniss Everdeen, uma heroína que desafia a opressão da Capital em Panem. Desde sua luta pela sobrevivência nos Jogos até se tornar o símbolo da revolução, Katniss enfrenta desafios e sacrifícios, culminando em uma guerra épica pela liberdade.</p>
+        </div>
+        <img src="./src/images/Imagem dos filmes.png" alt="Imagem cpa dos 4 filmes da saga">
+    </section>
+
+    <section class="sobre-os-filmes" id="sobre-os-filmes">
+        <div class="sobre-os-filmes__container">
+            <nav class="sobre-os-filmes__container__nav">
+                <div class="sobre-os-filmes__container__nav__div">
+                    <button class="sobre-os-filmes__container__nav__div__button sobre-os-filmes__container__nav__div__button--is-active" data-tab-button="jogos-vorazes" >
+                        Jogos Vorazes
+                    </button>
+                    <button class="sobre-os-filmes__container__nav__div__button" data-tab-button="jogos-vorazes-em-chamas" >
+                        Jogos Vorazes: Em chamas
+                    </button>
+                    <button class="sobre-os-filmes__container__nav__div__button" data-tab-button="jogos-vorazes-a-esperanca-parte-1" >
+                        Jogos Vorazes: A esperança parte 1
+                    </button>
+                    <button class="sobre-os-filmes__container__nav__div__button"  data-tab-button="jogos-vorazes-a-esperanca-parte-2" >
+                        Jogos Vorazes: A esperança parte 2
+                    </button>
+                </div>
+            </nav>
+            <div data-tab-id="jogos-vorazes" class="sobre-os-filmes__container__content sobre-os-filmes__container__content--is-active">
+                <h2>Jogos Vorazes</h2>
+                <ul class="sobre-os-filmes__container____content__jogos-vorazes">
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-com-o-rco.png" alt="Protagonista com um arco"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-apresentacaao.png" alt="Protagonista com um arco"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-simbolo-distritos.png" alt="Protagonista com um arco"></li>
+                </ul>
+                <p>Em um futuro distópico, a jovem Katniss Everdeen vive no empobrecido Distrito 12 de Panem. Quando sua irmã mais nova é selecionada para participar dos mortais Jogos Vorazes, Katniss se voluntaria para tomar seu lugar. Ela e seu companheiro de distrito, Peeta Mellark, são transportados para a Capital, onde são preparados para o brutal evento. Nos Jogos, 24 tributos de diferentes distritos lutam até a morte, enquanto o evento é transmitido ao vivo para todo o país. Katniss deve usar suas habilidades de caça e instinto de sobrevivência para enfrentar os desafios da arena e, ao mesmo tempo, lidar com as complexidades das alianças e da manipulação política. O filme explora temas de sacrifício, sobrevivência e a luta contra a opressão.</p>
+            </div>
+            <div data-tab-id="jogos-vorazes-em-chamas" class="sobre-os-filmes__container__content">
+                <h2>Jogos Vorazes: Em chamas</h2>
+                <ul class="sobre-os-filmes__container____content__jogos-vorazes">
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/Quarteto-em chamas.png" alt="Quatro principais"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/cavaleiros-das-chamas.png" alt="katniss e peter em uma carruagem"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-destruicao.png" alt="Katniss em um cenário destruido"></li>
+                </ul>
+                <p>Após a vitória de Katniss Everdeen e Peeta Mellark nos Jogos Vorazes anteriores, eles se tornam símbolos de uma possível revolução contra a opressiva Capital. O Presidente Snow, ciente do poder de Katniss como figura de rebeldia, exige que ela e Peeta convençam o público de seu amor durante a turnê da vitória para evitar rebeliões nos distritos.
+
+                    No entanto, a situação em Panem é caótica, com focos de revolução inspirados pela coragem de Katniss. A turnê revela a indignação do povo e a pressão sobre Katniss para que ela se posicione. A tensão aumenta quando é anunciado o Massacre Quaternário, uma edição especial dos Jogos Vorazes que ocorre a cada 25 anos, onde os tributos são escolhidos entre os vencedores anteriores, forçando Katniss e Peeta a retornarem à arena.
+                    
+                    O filme explora temas de poder, sacrifício e a luta pela liberdade, enquanto Katniss e Peeta enfrentam não apenas os perigos da arena, mas também a manipulação política e a esperança de um povo por mudança</p>
+            </div>
+            <div data-tab-id="jogos-vorazes-a-esperanca-parte-1" class="sobre-os-filmes__container__content">
+                <h2>Jogos Vorazes: A esperança - Parte 1</h2>
+                <ul class="sobre-os-filmes__container____content__jogos-vorazes">
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-e-namorado.png" alt="katniss e namorado"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-e-o-povo.png" alt="katniss e o povo"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-e-a-presidente.png" alt="katniss e a presidente"></li>
+                </ul>
+                <p> Após ser resgatada do Massacre Quaternário pela resistência, Katniss Everdeen (Jennifer Lawrence) se encontra no Distrito 13, que havia sido supostamente destruído pela Capital. Ela está abalada e separada de Peeta Mellark, lutando para manter a sanidade em um ambiente fechado e claustrofóbico.
+
+                    A presidente Coin (Julianne Moore) e Plutarch Heavensbee (Philip Seymor Hoffman) querem usar Katniss como o símbolo da rebelião, o Tordo, mas ela se recusa inicialmente. Só após testemunhar a destruição do Distrito 12 e a brutalidade da Capital, Katniss aceita se tornar o Tordo, sob a condição de que a resistência resgate Peeta e outros prisioneiros da Capital.</p>
+            </div>
+            <div data-tab-id="jogos-vorazes-a-esperanca-parte-2" class="sobre-os-filmes__container__content">
+                <h2>Jogos Vorazes: A esperança - Parte 2</h2>
+                <ul class="sobre-os-filmes__container____content__jogos-vorazes">
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-mirando-na-presidente.png" alt="katniss mirando na presidente"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-e-namorado-disfarcados.png" alt="katniss e namorado disfarcados"></li>
+                    <li class="sobre-os-filmes__container__jogos-vorazes__item"><img src="./src/images/katniss-de-vermelho.png" alt="katniss de vermelho"></li>
+                </ul>
+                <p>  O filme segue a heroína Katniss Everdeen (Jennifer Lawrence) enquanto ela se une aos rebeldes do Distrito 13 para derrubar o tirânico Presidente Snow (Donald Sutherland) e trazer liberdade a Panem.
+
+                    Após os eventos do filme anterior, Katniss se torna o símbolo da revolução, o Tordo, e lidera a batalha final contra a Capital. O filme é marcado por intensas cenas de ação e confrontos emocionais, enquanto Katniss enfrenta armadilhas mortais e dilemas morais. Ela luta não apenas pela sua própria sobrevivência, mas também pelo futuro de Panem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="onde__assistir" id="onde-assistir">
+        <h2 class="onde__assistir__titulo">Quer assistir aos filmes da saga?</h2>
+        <ul class="onde__assistir__list">
+            <li class="onde__assistir__list__item">
+                <div class="onde__assistir__list__item__filmes">
+                    <a href="https://www.primevideo.com/-/pt/detail/0R1D37T10B6ZOJ1Q24LOM6Y3U2/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07L6S8GBM&qid=1702332727471"><img src="./src/images/jogos-vorazes.png" alt="Primeiro filme dos jogos vorazes"></a>
+                <h4>Jogos Vorazes</h4>
+                <p>Em um futuro distópico, Katniss Everdeen se voluntaria para os Jogos Vorazes para salvar sua irmã, enfrentando uma luta mortal pela sobrevivência.</p>
+                <div class="onde__assistir__list__item__filmes__link">
+                    <a href="https://www.primevideo.com/-/pt/detail/0R1D37T10B6ZOJ1Q24LOM6Y3U2/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07L6S8GBM&qid=1702332727471">Assistir agora</a>        
+                </div>
+            </div>
+            </li>
+            <li class="onde__assistir__list__item">
+                <div class="onde__assistir__list__item__filmes">
+                    <a href="https://www.primevideo.com/-/pt/detail/0Q39CX45P27KKE82UNTZFCQ7C1/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07K3P559F&qid=1702396372285"><img src="./src/images/jogos-vorazes-em-chamas.png" alt="Primeiro filme dos jogos vorazes"></a>
+                <h4>Jogos Vorazes: Em chamas</h4>
+                <p>Vencedores dos Jogos, Katniss e Peeta se tornam alvos da Capital e são forçados a competir no Massacre Quaternário, enquanto faíscas de rebelião começam a surgir.</p>
+                <div class="onde__assistir__list__item__filmes__link">
+                    <a href="https://www.primevideo.com/-/pt/detail/0Q39CX45P27KKE82UNTZFCQ7C1/ref=atv_sr_fle_c_Tn74RA_1_1_1?sr=1-1&pageTypeIdSource=ASIN&pageTypeId=B07K3P559F&qid=1702396372285">Assistir agora</a>        
+                </div>
+            </div>
+            </li>
+            <li class="onde__assistir__list__item">
+                <div class="onde__assistir__list__item__filmes">
+                    <a href="https://www.primevideo.com/-/pt/detail/0NYLQGTKHERRPXZGJSQOBNBG47/ref=atv_sr_fle_c_Tn74RA_3_1_3?sr=1-3&pageTypeIdSource=ASIN&pageTypeId=B08WPSDL58&qid=1702396494185"><img src="./src/images/jogos-vorazes-a-esperanca-parte-1.png" alt="Primeiro filme dos jogos vorazes"></a>
+                <h4>Jogos Vorazes: A esperança</h4>
+                <p>Katniss se torna o rosto da rebelião contra a Capital. Enquanto os distritos se unem para lutar pela liberdade, ela luta para salvar Peeta, que foi capturado e está sendo manipulado pelo governo.</p>
+                <div class="onde__assistir__list__item__filmes__link">
+                    <a href="https://www.primevideo.com/-/pt/detail/0NYLQGTKHERRPXZGJSQOBNBG47/ref=atv_sr_fle_c_Tn74RA_3_1_3?sr=1-3&pageTypeIdSource=ASIN&pageTypeId=B08WPSDL58&qid=1702396494185">Assistir agora</a>        
+                </div>
+            </div>
+            </li>  
+            <li class="onde__assistir__list__item">
+                <div class="onde__assistir__list__item__filmes">
+                    <a href="https://www.primevideo.com/-/pt/detail/0OO5ZTSAXXQA2YFJ0MBQYABEKC/ref=atv_dp_amz_c_TS8274d9_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D"><img src="./src/images/jogos-vorazes-a-esperanca-parte-2.png" alt="Primeiro filme dos jogos vorazes"></a>
+                <h4>Jogos Vorazes: A esperança</h4>
+                <p>Na conclusão épica da saga, Katniss e os rebeldes lançam um ataque final contra o presidente Snow e a Capital. Com grandes sacrifícios e perdas, eles buscam derrubar o regime tirânico e trazer a liberdade para o povo de Panem.</p>
+                <div class="onde__assistir__list__item__filmes__link">
+                    <a href="https://www.primevideo.com/-/pt/detail/0OO5ZTSAXXQA2YFJ0MBQYABEKC/ref=atv_dp_amz_c_TS8274d9_1_1?jic=16%7CCgNhbGwSA2FsbA%3D%3D">Assistir agora</a>        
+                </div>
+            </div>
+            </li>
+
+        </ul>
+    </section>
+
+    <script src="./dist/js/main.js"></script>
+    
+</body>
+</html>

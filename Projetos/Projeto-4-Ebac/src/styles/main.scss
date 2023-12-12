@@ -1,0 +1,29 @@
+@use 'header';
+@use 'variaveis';
+@use 'hero';
+@use 'filmes-da-saga';
+@use 'onde-assistir';
+@use 'sobre-os-filmes';
+
+@mixin titulo ($fontSize: 28px) {
+    @include text ($fontSize);
+    color : variaveis.$corPreta;
+}
+
+@mixin text($fontSize: 16px) {
+    font-size: $fontSize;
+    color : variaveis.$corPreta;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: variaveis.$corPreta;
+}
+

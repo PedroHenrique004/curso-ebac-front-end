@@ -1,0 +1,72 @@
+@use 'variaveis';
+
+.sobre-os-filmes {
+    background-color: variaveis.$corDeFundo1;
+    padding-bottom: 48px;
+
+    &__container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-left: 2px solid variaveis.$corPreta;
+        border-right: 2px solid variaveis.$corPreta;
+        padding: 16px 32px;
+        
+        h2 {
+            padding-top: 32px;
+        }
+
+        &__nav {
+            padding-top: 48px;
+
+            &__div {
+                display: flex;
+                justify-content: space-between;
+
+                
+                &__button {
+                    background-color: transparent;
+                    max-width: 250px;
+                    width: 100%;
+                    gap: 24px;
+                    padding-top: 24px;
+                    padding-bottom: 24px;
+                    border: none;
+                    cursor: pointer;
+
+                    &--is-active {
+                        border: 1px solid variaveis.$corDeFundo2;
+                        border-bottom:5px solid variaveis.$corPreta;
+                    }
+                }
+            }
+        }
+
+        &__content{
+            display: none;
+
+            &--is-active{
+                display: block;
+            }
+        }
+        
+        &__jogos-vorazes{
+            padding: 32px 16px;
+
+            &__item {
+                display: inline-block;
+                padding: 32px;
+                
+                img {
+                    border-radius: 5px;
+                    border:1px solid variaveis.$corPreta;
+                }
+            }
+        }
+
+
+    }
+}

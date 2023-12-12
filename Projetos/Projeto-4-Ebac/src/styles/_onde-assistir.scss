@@ -1,0 +1,64 @@
+@use 'variaveis';
+
+.onde__assistir {
+    background-color:variaveis.$corDeFundo2;
+    text-align: center;
+    padding-bottom: 64px;
+
+    h2 {
+        font-size: variaveis.$tamanhoTitulo;
+    }
+
+    &__titulo {
+        padding: 48px;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        list-style: none;
+        margin-left: 56px;
+
+        &__item {
+
+            &__filmes {
+                max-width: 300px;
+                max-height: 600px;
+                height: 100%;
+                border: 3px solid variaveis.$corPreta;
+                border-radius: 3px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color: variaveis.$corDeFundo1;
+
+                &__link {   
+                    width: 100%;
+                    padding: 16px;
+                    background-color: variaveis.$corPreta;   
+                    cursor: pointer;
+
+                    a{
+                        text-decoration: none;
+                        color: variaveis.$corDourada;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            h4 {
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+
+            p {
+                padding: 16px;
+            }
+
+        }
+    }
+
+}

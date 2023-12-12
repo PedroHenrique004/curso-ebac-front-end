@@ -1,0 +1,66 @@
+@use 'variaveis';
+
+@mixin links($fontSize:16px) {
+    font-size: $fontSize;
+}
+
+.header {
+    background-color: variaveis.$corPreta;
+    border-bottom: 1px solid variaveis.$corDourada;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    max-height: 200px;
+    height: 100%;
+
+    
+    &--is-hidden {
+        background-color: transparent;
+        border: none;
+        
+        li {
+            background-color: rgba($color: #000, $alpha: .5);
+            border: 1px solid variaveis.$corBranca;
+        }
+        
+        img {
+            visibility: hidden;
+        }
+    }
+    
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &__logo {           
+            max-width: 200px;         
+        }
+        
+        ul {
+            display: inline;
+            li {
+                display: inline;
+                padding: 16px;
+                
+                &:nth-child(2){
+                    border-right: 1px solid variaveis.$corBranca;
+                    border-left: 1px solid variaveis.$corBranca;
+                }
+                
+                &:nth-child(3){
+                    border-right: 1px solid variaveis.$corBranca;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: variaveis.$corBranca;
+                    
+                    @include links(16px);
+                }
+            }
+        }
+    }
+
+}
